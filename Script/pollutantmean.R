@@ -1,4 +1,4 @@
-pollutantmean <- function(directory, pollutant, id = 1:132) {
+pollutantmean <- function(directory, pollutant, id = 1:332) {
         
         for(i in 1:length(id)){
                 id_test <- as.character(id[i])
